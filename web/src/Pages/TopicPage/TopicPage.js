@@ -6,6 +6,8 @@ import TopicCard from "./TopicCard/TopicCard";
 import ErrorMessage from "../../components/ErrorMessage";
 import RelationCard from "./RelationCard/RelationCard";
 import { ageContext } from "../../components/AudienceContext";
+// eslint-disable-next-line
+import { Helmet } from "react-helmet";
 import { audienceChangeOnSubjectEvent } from "../../utils/gaEvents";
 
 export default function TopicPage() {
@@ -45,6 +47,14 @@ export default function TopicPage() {
   if (topicData?.descriptions.length) {
     return (
       <div className="mt-[80px] phone:mt-[70.5px]">
+        <Helmet>
+          <meta property="og:title" content="Topic" data-react-helmet="true" />
+          <meta property="og:description" content="topic description" data-react-helmet="true" />
+          <link
+            rel="canonical"
+            href="https://deploy-preview-118--explain-ai.netlify.app/javascript"
+          />
+        </Helmet>
         <Breadcrumbs
           parent={topicData.parent.parent}
           grandParent={topicData.parent.parent.grandparent.grandparent}

@@ -9,6 +9,7 @@
   "author": "Me",
   "license": "Commercial",
   "dependencies": {
-    "prop-types": "^15.8.1"
+    "prop-types": "^15.8.1",
+    "react-helmet": "^6.1.0"
   }
 }

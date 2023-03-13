@@ -50,6 +50,7 @@
               image
               created_at
               descriptions {
+                extra_short
                 short
                 long
                 audience
