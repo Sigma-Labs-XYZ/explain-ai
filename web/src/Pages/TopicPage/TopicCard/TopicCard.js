@@ -22,10 +22,11 @@ function TopicCard({ topic }) {
           <h1>{topic.name}</h1>
         </div>
         <div className={`topic-card-description ${descLength === "long" ? "expanding" : ""}`}>
-          <p data-testid="description-container" className="topic-desc">
-            {" "}
-            {description}{" "}
-          </p>
+          <div data-testid="description-container" className="topic-desc">
+            {description.split(`\n\n`).map((paragraph) => (
+              <p>{paragraph}</p>
+            ))}
+          </div>
         </div>
         <div className="topic-card-img-btn">
           <button
