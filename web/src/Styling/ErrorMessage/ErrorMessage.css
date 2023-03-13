@@ -1,3 +1,23 @@
+@-webkit-keyframes error-wiggle {
+  0% {
+    transform: translateX(2%);
+  }
+  20% {
+    transform: translateX(-2%);
+  }
+  40% {
+    transform: translateX(2%);
+  }
+  60% {
+    transform: translateX(-2%);
+  }
+  80% {
+    transform: translateX(2%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
 @keyframes error-wiggle {
   0% {
     transform: translateX(2%);

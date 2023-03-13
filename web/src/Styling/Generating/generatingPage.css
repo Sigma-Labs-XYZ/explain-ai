@@ -1,0 +1,34 @@
+.generating {
+  margin-top: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+}
+.generating .img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  @apply rounded-full;
+  @apply h-[400px];
+  @apply w-[400px];
+}
+.generating .title {
+  align-self: center;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.generating .description {
+  text-align: center;
+  align-self: center;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 30px;
+  @apply w-[600px];
+}
+.generating .lottie {
+  margin: auto;
+  width: 300px;
+} /*# sourceMappingURL=generatingPage.css.map */

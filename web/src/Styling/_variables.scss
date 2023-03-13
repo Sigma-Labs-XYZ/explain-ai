@@ -16,6 +16,12 @@ $desktop-width: 1000.5px;
   flex-direction: row;
 }
 
+@mixin flex-colunm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 @mixin select-style {
   width: 75px;
   height: 37px;

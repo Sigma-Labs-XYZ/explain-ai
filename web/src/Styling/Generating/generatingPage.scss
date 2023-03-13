@@ -1,0 +1,36 @@
+@import "./variables.scss";
+
+.generating {
+  margin-top: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+
+  .img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    @apply rounded-full;
+    @apply h-[400px];
+    @apply w-[400px];
+  }
+
+  .title {
+    @include flex-center;
+    font-size: 40px;
+  }
+
+  .description {
+    text-align: center;
+    @include flex-center;
+    font-size: 30px;
+    @apply w-[600px];
+  }
+
+  .lottie {
+    margin: auto;
+    width: 300px;
+  }
+}

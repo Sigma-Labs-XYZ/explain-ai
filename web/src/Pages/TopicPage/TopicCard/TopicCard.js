@@ -4,6 +4,7 @@ import { ageContext } from "../../../components/AudienceContext";
 import "../../../Styling/TopicCard/TopicCard.css";
 import { sendClickEvent } from "../../../utils/gaEvents";
 import { replaceImage } from "../../../components/ErrorMessage";
+
 /* eslint react/forbid-prop-types: 0 */
 
 function TopicCard({ topic }) {
