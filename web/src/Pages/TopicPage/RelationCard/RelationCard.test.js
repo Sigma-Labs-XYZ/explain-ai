@@ -7,12 +7,17 @@ import RelationCard from "./RelationCard";
 const name = "pedro";
 const description = "JavaScript is used to add interactivity to HTML pages";
 const image = `${process.env.PUBLIC_URL}pedro.png`;
+function loading() {
+  /* eslint-disable no-console */
+  console.log("is loading : )");
+  /* eslint-enable no-console */
+}
 
 describe("Test if all elements of RelationCard are rendered", () => {
   test("Name of the topic rendered", () => {
     render(
       <AudienceContext>
-        <RelationCard name={name} description={description} image={image} />
+        <RelationCard name={name} description={description} image={image} loading={loading} />
       </AudienceContext>,
       {
         wrapper: BrowserRouter,
@@ -24,7 +29,7 @@ describe("Test if all elements of RelationCard are rendered", () => {
   test("Description of the topic rendered", () => {
     render(
       <AudienceContext>
-        <RelationCard name={name} description={description} image={image} />
+        <RelationCard name={name} description={description} image={image} loading={loading} />
       </AudienceContext>,
       {
         wrapper: BrowserRouter,
@@ -36,7 +41,7 @@ describe("Test if all elements of RelationCard are rendered", () => {
   test("Image of the topic rendered", () => {
     render(
       <AudienceContext>
-        <RelationCard name={name} description={description} image={image} />
+        <RelationCard name={name} description={description} image={image} loading={loading} />
       </AudienceContext>,
       {
         wrapper: BrowserRouter,
@@ -49,7 +54,7 @@ describe("Test if all elements of RelationCard are rendered", () => {
   test("Failure to find image resolves to default image", () => {
     render(
       <AudienceContext>
-        <RelationCard name={name} description={description} image={image} />
+        <RelationCard name={name} description={description} image={image} loading={loading} />
       </AudienceContext>,
       {
         wrapper: BrowserRouter,
@@ -62,10 +67,10 @@ describe("Test if all elements of RelationCard are rendered", () => {
 });
 
 describe("link elements", () => {
-  test("elements loaded within the link tag so they are all clickable and correct link path", () => {
+  test("elements loaded within the link tag so they are all clickable and correct link path", async () => {
     render(
       <AudienceContext>
-        <RelationCard name={name} description={description} image={image} />
+        <RelationCard name={name} description={description} image={image} loading={loading} />
       </AudienceContext>,
       {
         wrapper: BrowserRouter,

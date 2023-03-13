@@ -1,5 +1,5 @@
 .topic-card-parent {
-  margin: 0px;
+  margin: 100px;
   margin-top: 20px;
   display: flex;
   justify-content: center;
@@ -118,7 +118,6 @@
 .topic-card-parent .topic-card-img-btn .topic-card-img {
   display: flex;
   border-radius: 50%;
-  background-color: rgb(49, 38, 38);
   justify-content: center;
   align-items: center;
   overflow: hidden;

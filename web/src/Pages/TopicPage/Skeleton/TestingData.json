@@ -1,0 +1,121 @@
+{
+  "topic": [
+    {
+      "name": "Javascript",
+      "image": "https://miro.medium.com/max/750/1*ZQAVhhVVOJ24GWtN6skKxg.jpeg",
+      "created_at": "2023-02-23",
+      "descriptions": [
+        {
+          "short": "Javascript is a special kind of computer language that helps websites do cool things like make pictures move, keep track of information, and show new things when you click on something.",
+          "long": "JavaScript is like a special language that helps make websites do cool things. It's like a set of instructions that a website can follow to make things happen. For example, when you click on a button on a website, JavaScript can tell the website what to do. It can help the website figure out what to show you when you click that button. It can also make things move around on the website and make things happen when you hover over certain parts of the website. It can help websites remember things about you, like what you like to look at or what you've bought. JavaScript can also help websites keep track of how many people have visited the website and how they got there. All these things help make websites more fun and useful.",
+          "audience": 5
+        },
+        {
+          "short": "Javascript is a type of computer code that helps websites work the way you want them to. It can make things move, change colors, show new information, and more. It helps websites do things that make them more fun and interesting for people to use.",
+          "long": "Javascript is a computer language that helps make websites interactive. It can do lots of things like make pop-up messages appear, change the content on a page, and make things move around on the screen.  When you visit a website, the browser reads the Javascript instructions and follows them. For example, when you click a button on a website, the Javascript instructions tell the browser what to do, like open a new page or show an animation.  Javascript is used for lots of things. It's used to make websites more interactive, like when you use a search engine or play a game. It's also used to create charts or graphs and make the websites look more interesting.  Javascript can be used to control how things look on a page, like changing the font size or making the text flash. It's also used to control how things work, like when you fill out a form on a website or when you move your mouse over something.  Javascript is a powerful language that helps make websites more fun and interactive.",
+          "audience": 10
+        },
+        {
+          "short": "Javascript is a programming language used to create interactive web pages and applications. It is used to add dynamic elements such as animations, forms, games, and other interactive elements to websites. Javascript can also be used to connect to databases, access the internet, and create applications for mobile devices. It is a powerful tool for creating and manipulating web content, and can be used to create sophisticated and interactive websites.",
+          "long": "Javascript is a computer programming language used to add interactivity to websites. It is used to create interactive elements that can respond to a user's actions, such as clicking on a button or filling out a form. Javascript can also be used to create animations and other visual effects. It is one of the most popular programming languages and is used by millions of web developers around the world.  Javascript is what makes a website “come alive”. It can be used to add features such as drop-down menus, interactive maps, and dynamic content. It can also be used to create games, including online versions of popular board games.  Javascript is easy to learn, which makes it popular with beginners. There are lots of online tutorials and courses available to help people get started. It can also be used in conjunction with HTML and CSS to create complex webpages.  Overall, Javascript is an incredibly powerful and versatile programming language that enables web developers to create interactive and engaging websites. It has the potential to make a website stand out from the crowd and provide an enjoyable experience for the user.",
+          "audience": 20
+        }
+      ],
+      "parent": {
+        "parent": {
+          "slug": "web_development",
+          "name": "Web Development",
+          "grandparent": {
+            "grandparent": {
+              "slug": "computing",
+              "name": "Computing"
+            }
+          }
+        }
+      },
+      "relationships": [
+        {
+          "audience": 5,
+          "to": {
+            "slug": "css",
+            "name": "CSS",
+            "image": "https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-css/sta-je-css.png"
+          },
+          "description": "Javascript and CSS work together to make websites look nice and work well."
+        },
+        {
+          "audience": 10,
+          "to": {
+            "slug": "css",
+            "name": "CSS",
+            "image": "https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-css/sta-je-css.png"
+          },
+          "description": "Javascript and CSS work together to make websites look great and work well."
+        },
+        {
+          "audience": 20,
+          "to": {
+            "slug": "css",
+            "name": "CSS",
+            "image": "https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-css/sta-je-css.png"
+          },
+          "description": "Javascript adds interactivity to webpages, while CSS is used to style their look."
+        },
+        {
+          "audience": 20,
+          "to": {
+            "slug": "html",
+            "name": "HTML",
+            "image": "https://play-lh.googleusercontent.com/RslBy1o2NEBYUdRjQtUqLbN-ZM2hpks1mHPMiHMrpAuLqxeBPcFSAjo65nQHbTA53YYn"
+          },
+          "description": "HTML is the structure for a website, JavaScript adds interactivity and dynamic features."
+        },
+        {
+          "audience": 10,
+          "to": {
+            "slug": "html",
+            "name": "HTML",
+            "image": "https://play-lh.googleusercontent.com/RslBy1o2NEBYUdRjQtUqLbN-ZM2hpks1mHPMiHMrpAuLqxeBPcFSAjo65nQHbTA53YYn"
+          },
+          "description": "Javascript makes HTML pages interactive and fun."
+        },
+        {
+          "audience": 5,
+          "to": {
+            "slug": "html",
+            "name": "HTML",
+            "image": "https://play-lh.googleusercontent.com/RslBy1o2NEBYUdRjQtUqLbN-ZM2hpks1mHPMiHMrpAuLqxeBPcFSAjo65nQHbTA53YYn"
+          },
+          "description": "Javascript makes HTML do cool things."
+        },
+        {
+          "audience": 5,
+          "to": {
+            "slug": "react",
+            "name": "React",
+            "image": "https://pbs.twimg.com/card_img/1625107542492975105/3WWQKBUV?format=png&name=medium"
+          },
+          "description": "Javascript and React help you make websites look special."
+        },
+        {
+          "audience": 10,
+          "to": {
+            "slug": "react",
+            "name": "React",
+            "image": "https://pbs.twimg.com/card_img/1625107542492975105/3WWQKBUV?format=png&name=medium"
+          },
+          "description": "Javascript is the language and React is a library that uses Javascript to make websites."
+        },
+        {
+          "audience": 20,
+          "to": {
+            "slug": "react",
+            "name": "React",
+            "image": "https://pbs.twimg.com/card_img/1625107542492975105/3WWQKBUV?format=png&name=medium"
+          },
+          "description": "Javascript is the language used to create React apps."
+        }
+      ]
+    }
+  ]
+}
