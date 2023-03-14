@@ -1,45 +1,95 @@
-@keyframes error-wiggle {
+@-webkit-keyframes error-wiggle {
   0% {
+    -webkit-transform: translateX(2%);
     transform: translateX(2%);
   }
   20% {
+    -webkit-transform: translateX(-2%);
     transform: translateX(-2%);
   }
   40% {
+    -webkit-transform: translateX(2%);
     transform: translateX(2%);
   }
   60% {
+    -webkit-transform: translateX(-2%);
     transform: translateX(-2%);
   }
   80% {
+    -webkit-transform: translateX(2%);
     transform: translateX(2%);
   }
   100% {
+    -webkit-transform: translateX(0%);
     transform: translateX(0%);
   }
 }
+
+@keyframes error-wiggle {
+  0% {
+    -webkit-transform: translateX(2%);
+    transform: translateX(2%);
+  }
+  20% {
+    -webkit-transform: translateX(-2%);
+    transform: translateX(-2%);
+  }
+  40% {
+    -webkit-transform: translateX(2%);
+    transform: translateX(2%);
+  }
+  60% {
+    -webkit-transform: translateX(-2%);
+    transform: translateX(-2%);
+  }
+  80% {
+    -webkit-transform: translateX(2%);
+    transform: translateX(2%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+}
+
 .error-container {
   padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   top: 40%;
 }
+
 .error-container .error-message {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 500px;
   border: 2px solid red;
   border-radius: 10px;
   background-color: rgba(238, 7, 7, 0.8);
   color: white;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   -webkit-animation: error-wiggle 400ms ease-in forwards;
   animation: error-wiggle 400ms ease-in forwards;
 }
+
 .error-container .error-message h1,
 .error-container .error-message h2 {
   margin: 0;
   margin-bottom: 20px;
   margin-top: 10px;
-} /*# sourceMappingURL=ErrorMessage.css.map */
+}
+/*# sourceMappingURL=ErrorMessage.css.map */

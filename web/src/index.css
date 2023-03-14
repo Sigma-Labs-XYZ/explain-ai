@@ -8,6 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #4e4d4d;
+  overflow-x: hidden;
 }
 
 code {
@@ -32,4 +33,5 @@ h3 {
 
 h4 {
   @apply text-xl  font-bold;
-} /*# sourceMappingURL=index.css.map */
+}
+/*# sourceMappingURL=index.css.map */

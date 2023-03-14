@@ -5,12 +5,14 @@
     margin-top: 30px;
   }
 }
+
 @media (min-width: 400px) {
   #desktop {
     display: block;
     margin-top: 30px;
   }
 }
+
 @media (min-width: 1001px) {
   #desktop {
     display: block;
@@ -24,11 +26,13 @@
     display: block;
   }
 }
+
 @media (min-width: 400px) {
   #mobile {
     display: none;
   }
 }
+
 @media (min-width: 1001px) {
   #mobile {
     display: none;
@@ -49,4 +53,5 @@
 
 .mobile-grandParent-btn {
   @apply bg-backdrop pb-2 pt-2 text-left text-white capitalize w-screen;
-} /*# sourceMappingURL=TopicBreadcrumbs.css.map */
+}
+/*# sourceMappingURL=TopicBreadcrumbs.css.map */
